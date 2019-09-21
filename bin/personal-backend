@@ -1,0 +1,9 @@
+#!/usr/bin/env python
+
+from personal_mycroft_backend.backend import start_backend
+
+start_backend()
+
+from personal_mycroft_backend.frontend import start_frontend
+
+start_frontend()
